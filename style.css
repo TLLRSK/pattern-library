@@ -1,0 +1,116 @@
+/* All */
+* {
+    font-family: Verdana;
+  }
+  
+  body {
+    color: white;
+    background-color: #5B5B5B;
+  }
+  
+  /* COLOR SECTION */
+  .color {
+    display: inline-block;
+    background-color: grey;
+    height: 120px;
+    width: 120px;
+    margin-right: 24px;
+    border-radius: 16px;
+  }
+  
+  .color--data {
+    margin: 0;
+    padding: 45% 22%;
+    font-size: 12px;
+    font-weight: 800;
+    filter: drop-shadow(0 0 0.1rem black);
+  }
+  
+  /* HEADER SECTION */
+  .h1 {
+    font-size: 56px;
+  }
+  .h2 {
+    font-size: 48px;
+  }
+  .h3 {
+    font-size: 40px;
+  }
+  .h4 {
+    font-size: 36px;
+  }
+  .h5 {
+    font-size: 32px;
+  }
+  .h6 {
+    font-size: 28px;
+  }
+  
+  /* BUTTONS */
+  .buttons code {
+    background-color: black;
+    font-size: 12px;
+    padding: 6px;
+    margin: 6px;
+  }
+  
+  button,
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 0;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin-right: 16px;
+    color: black;
+    font-weight: 800;
+    background-color: #61FF39;
+    line-height: 2.5;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  button:hover,
+  .btn:hover {
+    background-color: #ccffcc;
+    cursor:pointer;
+  }
+  
+  .btn--secondary {
+    background-color: #999999;
+  }
+  
+  .btn--secondary:hover {
+    background-color: #cccccc;
+  }
+  
+  /* UTILITIES */
+  .section-title {
+    color: #61FF39;
+    border-bottom: 1px solid #61FF39;
+  }
+  .color--green-1 {
+    background-color: #61FF39;
+  }
+  .color--green-2 {
+    background-color: #ccffcc;
+  }
+  .color--white-1 {
+    background-color: #FFFFFF;
+  }
+  .color--black-1{ 
+  background-color: #2B2B2B
+  }
+  .color--grey-1 {
+    background-color: #999999;
+  }
+  .color--grey-2 {
+    background-color: #CCCCCC;
+  }
+  .color--grey-3 {
+    background-color: #5B5B5B;
+  }
+  
+  .drop-shadow {
+    filter: drop-shadow(6px 6px 0.4rem #2B2B2B);
+  }
